@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <div v-if="movie" class="content">
+      <div v-if="movie">
         <h2>{{ movie.title }}</h2>
         <p>{{movie.year}}</p>
         <p>{{movie.real}}</p>

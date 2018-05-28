@@ -1,5 +1,5 @@
 <template>
-  <div id="formEdit" v-if="movie">
+  <divv-if="movie">
     <label>Titre: : </label><input type="text" v-model="movie.title"> <br/>
     <label>Date de réalisation : </label><input type="text" v-model="movie.year"> <br/>
     <label>Réalisateur : </label><input type="text" v-model="movie.real"> <br/>

@@ -13,6 +13,7 @@
 <script>
 
   export default {
+    props: ['movie'],
     data () {
       return {
         loading: false,

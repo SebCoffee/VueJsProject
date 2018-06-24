@@ -1,12 +1,14 @@
 <template>
-  <divv-if="movie">
-    <label>Titre: : </label><input type="text" v-model="movie.title"> <br/>
-    <label>Date de réalisation : </label><input type="text" v-model="movie.year"> <br/>
-    <label>Réalisateur : </label><input type="text" v-model="movie.real"> <br/>
-    <label>Synopsis : </label><input type="text" v-model="movie.synopsis"> <br/>
-    <button v-on:click="validate">Modifier</button>
-    <button v-on:click="deleteMovie">Supprimer le film</button>
-    <br/>
+  <div>
+    <div v-if="movie">
+      <label>Titre: : </label><input type="text" v-model="movie.title"> <br/>
+      <label>Date de réalisation : </label><input type="text" v-model="movie.year"> <br/>
+      <label>Réalisateur : </label><input type="text" v-model="movie.real"> <br/>
+      <label>Synopsis : </label><input type="text" v-model="movie.synopsis"> <br/>
+      <button v-on:click="validate">Modifier</button>
+      <button v-on:click="deleteMovie">Supprimer le film</button>
+      <br/>
+    </div>
   </div>
 </template>
 
